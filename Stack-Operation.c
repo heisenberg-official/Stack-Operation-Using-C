@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 #include<stdbool.h>
 #define MAX 5
 int stack[MAX],TOP=-1;
@@ -57,6 +56,5 @@ int main()
             case(3):DISPLAY();break;
             case(4):exit(0);
         }
-    }
-    return 0;
+    }   return 0;
 }
